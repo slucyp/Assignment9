@@ -30,8 +30,7 @@ class Sentence:
 def main():    
     for doc in range(995,1000):
         document = str(doc) +'.txtCleaned'
-        filepath = "/Users/lucy/SC4S2/week9/cleaned_input/"
-        with open(filepath+document, "r") as f:
+        with open(document, "r") as f:
             num = 0
 
             while True:
